@@ -1,0 +1,145 @@
+* {
+    font-family: "SF Pro Display";
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    height: 40px;
+    background-color: rgba(223, 223, 223, 0.88);
+    width: 100vw;
+    top: 0;
+    right: 2px;
+    position: fixed;
+    border:none;
+}
+
+nav > ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+#aboutMe , #contactMe {
+    display: inline;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+#aboutMe {
+    float: left;
+    margin-left: 50px;
+}
+#aboutMe > li > a {
+    background-color: rgb(223,223,223);
+}
+#contactMe {
+    float: right;
+    margin-right: 50px;
+}
+
+header {
+    background-image: linear-gradient(to right,white,rgb(233, 233, 233),rgb(223, 223, 223));
+    width: 100vw;
+    padding-top: 20px;
+}
+
+#headerContainer {
+    display: flex;
+    flex-direction: row; 
+}
+
+#headerText  {
+    position: relative;
+    top: 100px;
+    margin-left: 20%;
+    margin-right: auto;
+    height: fit-content;
+    flex-direction: column;
+}
+
+#headerText > h2 {
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+#headerText > h1 {
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+#headerContainer > img {
+    height: 500px;
+    margin-right: 20%; 
+}
+#icons {
+    display: flex;                 
+    flex-direction: row;            
+    flex-wrap: nowrap;             
+    justify-content: space-between;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icons > a {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#icons > a > img {
+    height: 30px;
+    
+}
+
+#quizApp {
+    background-image: linear-gradient(to right,white,rgb(233, 233, 233),rgb(223, 223, 223));
+    height: 350px;
+    width: 100vw;
+    margin-left: -8px;
+    margin-bottom: 15px;
+}
+
+#quizApp > img {
+    height:270px;
+    float: right;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+#quizApp > h3 , p {
+    margin-left: 60px;
+    margin-top: 0px;
+}
+
+#quizApp > h3 {
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+}
+
+#quizApp > p {
+    position: relative;
+    top: 100px;
+    width: 220px;
+    font-size: 18px;
+}
+
+#aboutMeText , #contactMeText {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+    margin-bottom: 15px;
+    width: 100vw;
+    background-image: linear-gradient(to right,white,rgb(233, 233, 233),rgb(223, 223, 223));
+}
+
+#aboutMeText > p {
+    width: 80%;
+
+}
+
+
+
